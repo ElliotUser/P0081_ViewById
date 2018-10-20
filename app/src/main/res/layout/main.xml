@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:id="@+id/myText"/>
+
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/myText"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="89dp"
+        android:text="Button" />
+
+    <CheckBox
+        android:id="@+id/myChBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/myButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="107dp"
+        android:text="CheckBox" />
+
+
+</RelativeLayout>
